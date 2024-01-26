@@ -1,0 +1,32 @@
+<main>
+    <h2>WYNIKI</h2>
+    <div class="categoryContainer">
+        <div class="category">PODSUMOWANIE</div>
+        <button type="button" class="categoryButton" (click)="hideSection('summary', $event)">▲</button>
+    </div>
+    <section id="summary">
+        <table>
+            <tr>
+                <td>DOCHODY</td> 
+                <td><span>{{totalIncome}}</span> {{currency}}</td>
+            </tr>
+            <tr>
+                <td>WYDATKI</td>
+                <td><span>{{totalExpenses}}</span> {{currency}}</td>
+            </tr>
+            <tr>
+                <td>BILANS</td>
+                <td><span>{{balance}}</span> {{currency}}</td>
+            </tr>
+        </table>
+    </section>
+    <div class="categoryContainer">
+        <div class="category">GRUPY WYDATKÓW</div>
+        <button type="button" class="categoryButton" (click)="hideSection('expensesGroups', $event)">▲</button>
+    </div>
+    <section id="expensesGroups">
+        <div>
+            <canvasjs-chart [options]="chartOptions" [styles]="{width: '100%', height:'360px'}" (chartInstance)="getChartInstance($event)"></canvasjs-chart>    
+        </div>
+    </section>
+</main>

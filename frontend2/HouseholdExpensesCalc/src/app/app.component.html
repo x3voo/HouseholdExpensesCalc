@@ -1,0 +1,17 @@
+<main>
+  <header>
+    Budget Planner
+  </header>
+  <div id="currentView">
+    <ng-container *ngIf="currentForm === 'app-income-form'; then incomeForm else expensesForm"></ng-container>
+    <ng-template #incomeForm><app-income-form></app-income-form></ng-template>
+    <ng-template #expensesForm>
+      <div>
+        <app-expenses-form></app-expenses-form>
+      </div>
+      <div style="max-width: calc(100% - 550px);">
+        <app-summary-view></app-summary-view>
+      </div>
+    </ng-template>
+  </div>
+</main>

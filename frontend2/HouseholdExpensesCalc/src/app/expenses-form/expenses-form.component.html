@@ -1,0 +1,33 @@
+<main>
+    <form [formGroup]="expensesForm" (ngSubmit)="onSubmit()" id="expenses">
+        <label for="expenses"><h1><button type="button" class="categoryButton returnButton" (click)="return()">◄</button> WYDATKI</h1></label>
+        <ng-container *ngFor="let controlCategory of controlData">
+            <div class="categoryContainer">
+                <div class="category">{{ controlCategory.CATEGORY_NAME_PL }}</div>
+                <button type="button" class="categoryButton" (click)="hideSection(controlCategory.controlCategoryName, $event)">▲</button>
+            </div>
+            <section id="{{ controlCategory.controlCategoryName }}" style="display: block;">
+                <table>
+                    <ng-container *ngFor="let control of controlCategory.controls">
+                        <tr>
+                            <td class="tdName">
+                                {{ control.NAME_PL }}:
+                            </td>
+                            <td class="tdValue">
+                                <input [formControlName]="control.controlName" (ngModelChange)="onSubmit()" type="number" placeholder="0,00" min="0"/> PLN
+                            </td>
+                            <td class="tdFrequency">
+                                <select [formControlName]="control.controlName + 'Frequency'" (ngModelChange)="onSubmit()">
+                                    <option value="perDay">dziennie</option>
+                                    <option value="perWeek">tygodniowo</option>
+                                    <option value="perMonth">miesięcznie</option>
+                                    <option value="perYear">rocznie</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </ng-container>
+                </table>
+            </section>
+        </ng-container>
+    </form>
+</main>

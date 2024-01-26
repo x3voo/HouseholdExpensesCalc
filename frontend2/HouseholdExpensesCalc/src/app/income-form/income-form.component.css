@@ -1,0 +1,80 @@
+table {
+    width: 100%;
+}
+
+.checkboxEntry {
+    height: 30px;
+    border-radius: 2px;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.checkboxEntry:hover {
+    background-color: #555;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.checkboxEntry input {
+    display: block;
+    float: left;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.checkboxEntry label {
+    display: block;
+    height: 100%;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 5px;
+    margin-top: 20px;
+    padding: 12px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.categoryButton {
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: #eee;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.categoryButton:hover {
+    background-color: #555;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+  
+.categoryButton:active {
+    background-color: #333;
+    color: #fff;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+select {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+input {
+    max-width: 79px;
+}
+
+main {
+    max-width: 550px;
+    padding: 12px;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,16 @@
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.exe
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.deps.json
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.runtimeconfig.json
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.runtimeconfig.dev.json
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.dll
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\HECDB.pdb
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.csproj.AssemblyReference.cache
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.AssemblyInfoInputs.cache
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.AssemblyInfo.cs
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.csproj.CoreCompileInputs.cache
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.csproj.CopyComplete
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.dll
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.pdb
+D:\POLITECHNIKA\MGR Semestr 2 PiED\[ ZTF-proj ] Zaawansowane technologie frontendowe\projekt\backend\HECDB\HECDB\obj\Debug\netcoreapp3.1\HECDB.genruntimeconfig.cache

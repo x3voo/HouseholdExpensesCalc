@@ -1,0 +1,18 @@
+#Project location
+D:
+cd 'D:\POLITECHNIKA\MGR Semestr 2 PiED\`[ ZTF-proj `] Zaawansowane technologie frontendowe\projekt\frontend2\HouseholdExpensesCalc'
+
+#Create a app
+ng new myNewApp
+
+#Run server ( http://localhost:4200 )
+ng run
+
+#Create a Component
+ng generate component myNewComponent
+
+#Create a Service
+ng generate service myNewService
+
+#3rd party chart module (Note: has 12 vulnerabilities in which 2 are critical)
+npm install @canvasjs/angular-charts

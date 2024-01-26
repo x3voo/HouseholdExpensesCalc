@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.shell.windows": "C:",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit",
+        "-Command",
+        "Set-Location -LiteralPath 'D:\\POLITECHNIKA\\MGR Semestr 2 PiED\\[ ZTF-proj ] Zaawansowane technologie frontendowe\\projekt\\'; .\\ps_profile.ps1"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "XDDD": {
+          "source": "PowerShell",
+          "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}/ps_profile.ps1"
+            ]
+        }
+      }
+}

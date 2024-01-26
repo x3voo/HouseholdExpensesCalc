@@ -1,0 +1,39 @@
+<main>
+    <form [formGroup]="incomeForm" (ngSubmit)="onSubmit()" id="income">
+        <label for="income"><h1>DOCHODY</h1></label>
+        <table>
+            <ng-container *ngFor="let control of controlData">
+                <tr>
+                    <td>
+                        {{ control.NAME_PL }}:
+                    </td>
+                    <td>
+                        <input [formControlName]="control.controlName" type="number" placeholder="0,00" min="0"/> PLN
+                    </td>
+                    <td>
+                        <select [formControlName]="control.controlName + 'Frequency'">
+                            <option value="perDay">dziennie</option>
+                            <option value="perWeek">tygodniowo</option>
+                            <option value="perMonth">miesięcznie</option>
+                            <option value="perYear">rocznie</option>
+                        </select>
+                    </td>
+                </tr>
+            </ng-container>
+        </table>
+        <br>
+        Wybierz wydatki:
+        <br>
+        <div>
+            <ng-container *ngFor="let control of controlOptionsData">
+                <div class="checkboxEntry">
+                    <input type="checkbox" [formControlName]="control.controlName" [id]="control.controlName">
+                    <label [for]="control.controlName">{{ control.NAME_PL }}</label>
+                </div>
+                
+            </ng-container>
+        </div>
+        <button type="submit" class="button categoryButton">PRZEJDŹ DO KOSZTÓW</button>
+    </form>
+</main>
+

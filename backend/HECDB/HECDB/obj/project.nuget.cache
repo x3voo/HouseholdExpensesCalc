@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QceS+S7RmxguXPuZ16oTp028EcATU1pEvgYTiP7GpHcJ4oAQGwAlhntqK0OWA8AHGJNl3f8ACEwVNmW3nLDERg==",
+  "success": true,
+  "projectFilePath": "D:\\POLITECHNIKA\\MGR Semestr 2 PiED\\[ ZTF-proj ] Zaawansowane technologie frontendowe\\projekt\\backend\\HECDB\\HECDB\\HECDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ILAN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
